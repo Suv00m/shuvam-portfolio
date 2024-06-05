@@ -49,10 +49,6 @@ secret.key
 *.db
 *.sqlite
 
-# Ignore media files
-*.jpg
-*.png
-*.gif
 
 # Ignore compressed or archived files
 *.zip

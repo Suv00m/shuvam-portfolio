@@ -1,0 +1,59 @@
+# Ignore Vercel build files
+.vercel
+
+# Ignore environment variables file
+.env
+
+# Ignore compiled binaries or executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package manager directories
+/node_modules
+/bower_components
+
+# Ignore log files
+*.log
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.swp
+*~
+
+# Ignore compiled code or build artifacts
+/build
+/dist
+
+# Ignore sensitive or personal information
+credentials.txt
+secret.key
+
+# Ignore generated documentation
+/docs
+
+# Ignore temporary files or caches
+/tmp
+/cache
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore media files
+*.jpg
+*.png
+*.gif
+
+# Ignore compressed or archived files
+*.zip
+*.tar.gz

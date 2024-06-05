@@ -1,0 +1,26 @@
+blog:
+  posts:
+    - title: Lorem Ipsum
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      url: https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+      image: https://source.unsplash.com/random/100x100/?flower,white
+    - title: Nulla facilisi
+      content: Nulla facilisi. Sed euismod mauris id semper tincidunt.
+      url: https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+      image: https://source.unsplash.com/random/100x100/?city,white
+    - title: Nulla facilisi
+      content: Nulla facilisi. Sed euismod mauris id semper tincidunt.
+      url: https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+      image: https://source.unsplash.com/random/100x100/?house,white
+    - title: Nulla facilisi
+      content: Nulla facilisi. Sed euismod mauris id semper tincidunt.
+      url: https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+      image: https://source.unsplash.com/random/100x100/?car,white
+    - title: Nulla facilisi
+      content: Nulla facilisi. Sed euismod mauris id semper tincidunt.
+      url: https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+      image: https://source.unsplash.com/random/100x100/?tree,white
+    - title: Nulla facilisi
+      content: Nulla facilisi. Sed euismod mauris id semper tincidunt.
+      url: https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+      image: https://source.unsplash.com/random/100x100/?mountain,white 

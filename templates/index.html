@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="icon" type="image/x-icon" href="static\favicon.ico">
+    <title>homepage</title>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-4xl font-extrabold drop-shadow">Shuv.</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a href="/" class="mr-5 font-bold hover:text-gray-900">Home</a>
+                <a href="/blog" class="mr-5 font-bold hover:text-gray-900">Blog</a>
+                <a href="/talk" class="mr-5 font-bold hover:text-gray-900">🙇🏻talk with me</a>
+            </nav>
+            <!-- component -->
+            <div class="p-6 flex items-center justify-center">
+                <div class="container max-w-screen-lg mx-auto">
+                    <div>
+                        <div class="flex flex-wrap justify-center gap-2">
+                            
+
+                            <a href="https://twitter.com/00_shuv_00"
+                                class="bg-white p-2 font-semibold text-black inline-flex items-center space-x-2 rounded">
+                                <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                                </svg>
+                            </a>
+                            <a href="https://huggingface.co/shuvom"
+                                class="bg-white p-2 font-bold text-black inline-flex items-center space-x-2 rounded">
+                                🤗
+                            </a>
+                            <a href="https://www.kaggle.com/shuvammandal121"
+                                class="bg-white p-2 font-bold text-xl text-black inline-flex items-center space-x-2 rounded">
+                                k
+                            </a>
+                            <a href="https://www.linkedin.com/in/shuvam1/"
+                                class="bg-white p-2 font-semibold text-black inline-flex items-center space-x-2 rounded">
+                                <svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 256 256"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path
+                                            d="M218.123122,218.127392 L180.191928,218.127392 L180.191928,158.724263 C180.191928,144.559023 179.939053,126.323993 160.463756,126.323993 C140.707926,126.323993 137.685284,141.757585 137.685284,157.692986 L137.685284,218.123441 L99.7540894,218.123441 L99.7540894,95.9665207 L136.168036,95.9665207 L136.168036,112.660562 L136.677736,112.660562 C144.102746,99.9650027 157.908637,92.3824528 172.605689,92.9280076 C211.050535,92.9280076 218.138927,118.216023 218.138927,151.114151 L218.123122,218.127392 Z M56.9550587,79.2685282 C44.7981969,79.2707099 34.9413443,69.4171797 34.9391618,57.260052 C34.93698,45.1029244 44.7902948,35.2458562 56.9471566,35.2436736 C69.1040185,35.2414916 78.9608713,45.0950217 78.963054,57.2521493 C78.9641017,63.090208 76.6459976,68.6895714 72.5186979,72.8184433 C68.3913982,76.9473153 62.7929898,79.26748 56.9550587,79.2685282 M75.9206558,218.127392 L37.94995,218.127392 L37.94995,95.9665207 L75.9206558,95.9665207 L75.9206558,218.127392 Z M237.033403,0.0182577091 L18.8895249,0.0182577091 C8.57959469,-0.0980923971 0.124827038,8.16056231 -0.001,18.4706066 L-0.001,237.524091 C0.120519052,247.839103 8.57460631,256.105934 18.8895249,255.9977 L237.033403,255.9977 C247.368728,256.125818 255.855922,247.859464 255.999,237.524091 L255.999,18.4548016 C255.851624,8.12438979 247.363742,-0.133792868 237.033403,0.000790807055">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </a>
+
+
+
+                            <a href="https://github.com/suv00m"
+                                class="bg-white p-2 font-semibold text-black inline-flex items-center space-x-2 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" role="img" class="w-5" preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24">
+                                    <g fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"
+                                            fill="currentColor" />
+                                    </g>
+                                </svg>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1-EORlkHLZYXt0WwZdN0fua4XuqotMays/view?usp=sharing"
+                class="inline-flex items-center text-mono font-bold bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded mt-4 md:mt-0">Resume
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-1">
+                    <path d="M8.75 2.75a.75.75 0 0 0-1.5 0v5.69L5.03 6.22a.75.75 0 0 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 0 0-1.06-1.06L8.75 8.44V2.75Z" />
+                    <path d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z" />
+                  </svg>                             
+            </a>
+        </div>
+    </header>
+    <section class="container px-14">
+        <div class="m-6">
+            <h1 align="Center" class="text-4xl font-extrabold ">
+                Hello👋🏻, I'm Shuvam.
+            </h1>
+        </div>
+
+        <div>
+            <p align="Center" class="font-mono mb-4">
+                👣I live in india
+                <a href="mailto:shuvammandal121@gmail.com" class="mx-2">📧shuvammandal121@gmail.com</a>
+            </p>
+            <h2 align="Center" class="text-2xl font-extrabold mb-2 ">Intro.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                💪🏻<span class="underline decoration-gray-400">Currently DataScience intern @videodubber.ai</span> And
+                I'm an <span class="underline decoration-gray-400">undergrad doing ML</span> 🤖, also a <span
+                    class="font-bold text-red-500">2x kaggle expert</span>, <span
+                    class="underline decoration-gray-400">ex-ineuron.ai ML intern</span> and believe in open source📖.
+                Skilled in Machine learning algorithms, data analysis, feature engineering, pattern recognition, and
+                building pipelines etc.
+                Other than this, fine tuning open source llms, merging llms, quantizing llms to make them available for
+                any user.
+                And to showcase the machine learning models, I use streamlit, flask, and tailwindcss for frontend.
+            </p>
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Projects.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                <span class="text-xl font-extrabold mb-2">Yuj-v1:</span><br>
+                The yuj-v1 model is a blend of advanced models strategically crafted to enhance Hindi Language Models
+                (LLMs) effectively and democratically. Its primary goals include catalyzing the development of Hindi and
+                its communities, making significant contributions to linguistic knowledge. The term "yuj," from
+                Sanskrit, signifies fundamental unity, highlighting the integration of sophisticated technologies to
+                improve the language experience for users in the Hindi-speaking community.
+                <br>
+                🤗:<a href="https://huggingface.co/shuvom/yuj-v1">shuvom/yuj-v1</a>
+                <br>
+                🌌:<a href="https://shuvom-yuj-v1-tryo.hf.space/">play arround with it</a>
+            </p>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                <span class="text-xl font-extrabold mb-2">yDataPrep:</span><br>
+                yDataPrep is a python package that helps while finetuning your llms, it simply tokenize the data and
+                convert it into a format that can be used by the llms.
+                <br>
+                🐍:<a href="https://pypi.org/project/yDataPrep/">pypi package for it</a>
+                <br>
+                📄:<a href="https://train-y.vercel.app/docs.html">docs which you can go through</a>
+            </p>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                <span class="text-xl font-extrabold mb-2">find you fav book:</span><br>
+                This is a simple book recommendation system, which is built using the Book Recommendation Dataset. It
+                uses the collaborative filtering method and popularity based filerting to recommend the books to the
+                user. It recommends top 10 books to the user based on the user's interest.
+                <br>
+                🐈‍⬛:<a href="https://github.com/Suv00m/debut-bRS">github is all you need</a>
+                <br>
+                📄:<a href="https://drive.google.com/file/d/1_iBlCDZtaNZWVeFeNukVsSNxT5RVaHRq/view">docs which you can
+                    go through</a>
+            </p>
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Education.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                I'm currently pursuing my B.Tech in Computer Science and Engineering with Artificial Intelligence and
+                Machine Learning from <span class="underline decoration-gray-400">Maulana Abul Kalam Azad University of
+                    Technology</span>,<span class="underline decoration-gray-400">Asansol Engineering college</span>,
+                West Bengal.
+                <br>
+                🎓grade: 8.53
+            </p>
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Experience.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                I worked as a Machine Learning intern at <span class="underline decoration-slate-300">ineuron.ai</span>
+                where I learned about the machine learning models,recommender systems etc.
+                <br>
+                📅: 2023(mar-may)
+                <br>
+                🎁: <a href="https://github.com/Suv00m/debut-bRS">Book Recommender system</a>
+            </p>
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Achievements.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                <span class="text-xl font-extrabold mb-2">Best Innovative award:</span><br>
+                I led and built a team of 5 members to develop a headset called holographic headset, which was awarded
+                as the best innovative project in the college. Using the basic concept of holography of peper-ghost
+                effect, we developed a headset that can be used to watch 3D movies, play games, and also to watch 3D
+                models of the human body.
+            </p>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                <span class="text-xl font-extrabold mb-2">Kaggle expert:</span><br>
+                I'm a 2x kaggle expert, and I have participated in many competitions and also have contributed to the
+                kaggle community by sharing my notebooks and also by participating in the discussions.
+                <br>
+                🧑🏻‍🦱: <a href="https://www.kaggle.com/shuvammandal121">here is my kaggle account</a>
+            </p>
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Skills.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                <span class="font-mono mx-2 underline decoration-yellow-300">Machine Learning</span>
+                <span class="font-mono mx-2 underline decoration-red-600">Data Analysis</span>
+                <span class="font-mono mx-2 underline decoration-gray-600">feature Engineering</span>
+                <span class="font-mono mx-2 underline decoration-gray-200">Pattern Recognition</span>
+                <span class="font-mono mx-2 underline decoration-slate-400">Model Merging</span>
+                <span class="font-mono mx-2 underline decoration-blue-300">Fine Tuning</span>
+                <br>
+                <br>
+                <span class="font-mono mx-2 underline decoration-gray-200">Sklearn</span>
+                <span class="font-mono mx-2 underline decoration-blue-300">flask</span>
+                <span class="font-mono mx-2 underline decoration-gray-600">Transformers lib</span>
+                <span class="font-mono mx-2 underline decoration-red-600">Flask</span>
+                <span class="font-mono mx-2 underline decoration-yellow-300">Streamlit</span>
+                <span class="font-mono mx-2 underline decoration-slate-400">Tailwindcss</span>
+                <span class="font-mono mx-2 underline decoration-zinc-300">Pandas</span>
+                <span class="font-mono mx-2 underline decoration-stone-400">Numpy</span>
+                <span class="font-mono mx-2 underline decoration-blue-200">Seaborn</span>
+                <span class="font-mono mx-2 underline decoration-orange-300">Matplotlib</span>
+            </p>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>

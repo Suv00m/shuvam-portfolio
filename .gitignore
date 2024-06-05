@@ -53,3 +53,9 @@ secret.key
 # Ignore compressed or archived files
 *.zip
 *.tar.gz
+
+
+# Ignore the package-lock.json file
+package-lock.json       
+package.json
+tailwind.config.js

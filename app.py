@@ -13,7 +13,7 @@ def home():
 @app.route("/blog")
 def blog():
     # list_example = ['Alvin', 'Simon', 'Theodore','shuvam']
-    with open('data\blog.yaml') as file:
+    with open('blog.yaml') as file:
          data = yaml.safe_load(file)
          print("data",data)
          blog_data = data['blog']

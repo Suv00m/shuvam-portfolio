@@ -57,5 +57,4 @@ secret.key
 
 # Ignore the package-lock.json file
 package-lock.json       
-package.json
 tailwind.config.js

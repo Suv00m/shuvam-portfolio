@@ -14,7 +14,7 @@ def home():
 @app.route("/blog")
 def blog():
     # list_example = ['Alvin', 'Simon', 'Theodore','shuvam']
-    with open('static\blog.yaml') as file:
+    with open('blog.yaml') as file:
          data = yaml.safe_load(file)
          print("data",data)
          blog_data = data['blog']
@@ -27,5 +27,5 @@ def blog():
 @app.route("/talk")
 def post():
     return render_template("talk.html")
-# if __name__ == "__main__":
-#     app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="icon" type="image/x-icon" href="static\favicon.ico">
     <title>homepage</title>
 </head>
@@ -13,12 +14,13 @@
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <span class="ml-3 text-4xl font-extrabold drop-shadow">☄️Shuv.</span>
+                <span class="ml-3 text-4xl font-extrabold drop-shadow">Shuv.</span>
             </a>
             <nav
                 class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-                <a href="/" class="mr-5 hover:text-gray-900">Home</a>
-                <a href="/blog" class="mr-5 hover:text-gray-900">Blog</a>
+                <a href="/" class="mr-5 font-bold hover:text-gray-900">Home</a>
+                <a href="/blog" class="mr-5 font-bold hover:text-gray-900">Blog</a>
+                <a href="/talk" class="mr-5 font-bold hover:text-gray-900">🙇🏻talk with me</a>
             </nav>
             <!-- component -->
             <div class="p-6 flex items-center justify-center">
@@ -85,18 +87,20 @@
         </div>
     </header>
     <section class="container px-14">
-        <div class="mx-auto flex items-centers m-10">
-            <h1 class="text-4xl font-extrabold ">
+        <div class="m-6">
+            <h1 align="Center" class="text-4xl font-extrabold ">
                 Hello👋🏻, I'm Shuvam.
             </h1>
         </div>
+
         <div>
-            <p class="font-mono mb-4">
+            <p align="Center" class="font-mono mb-4">
                 👣I live in india
                 <a href="mailto:shuvammandal121@gmail.com" class="mx-2">📧shuvammandal121@gmail.com</a>
             </p>
-            <h2 class="text-2xl font-extrabold mb-2 ">Intro.</h2>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <h2 align="Center" class="text-2xl font-extrabold mb-2 ">Intro.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
+                💪🏻<span class="underline decoration-gray-400">Currently DataScience intern @videodubber.ai</span> And
                 I'm an <span class="underline decoration-gray-400">undergrad doing ML</span> 🤖, also a <span
                     class="font-bold text-red-500">2x kaggle expert</span>, <span
                     class="underline decoration-gray-400">ex-ineuron.ai ML intern</span> and believe in open source📖.
@@ -106,8 +110,8 @@
                 any user.
                 And to showcase the machine learning models, I use streamlit, flask, and tailwindcss for frontend.
             </p>
-            <h2 class="text-2xl font-extrabold mb-2">Projects.</h2>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Projects.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 <span class="text-xl font-extrabold mb-2">Yuj-v1:</span><br>
                 The yuj-v1 model is a blend of advanced models strategically crafted to enhance Hindi Language Models
                 (LLMs) effectively and democratically. Its primary goals include catalyzing the development of Hindi and
@@ -119,7 +123,7 @@
                 <br>
                 🌌:<a href="https://shuvom-yuj-v1-tryo.hf.space/">play arround with it</a>
             </p>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 <span class="text-xl font-extrabold mb-2">yDataPrep:</span><br>
                 yDataPrep is a python package that helps while finetuning your llms, it simply tokenize the data and
                 convert it into a format that can be used by the llms.
@@ -128,7 +132,7 @@
                 <br>
                 📄:<a href="https://train-y.vercel.app/docs.html">docs which you can go through</a>
             </p>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 <span class="text-xl font-extrabold mb-2">find you fav book:</span><br>
                 This is a simple book recommendation system, which is built using the Book Recommendation Dataset. It
                 uses the collaborative filtering method and popularity based filerting to recommend the books to the
@@ -139,8 +143,8 @@
                 📄:<a href="https://drive.google.com/file/d/1_iBlCDZtaNZWVeFeNukVsSNxT5RVaHRq/view">docs which you can
                     go through</a>
             </p>
-            <h2 class="text-2xl font-extrabold mb-2">Education.</h2>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Education.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 I'm currently pursuing my B.Tech in Computer Science and Engineering with Artificial Intelligence and
                 Machine Learning from <span class="underline decoration-gray-400">Maulana Abul Kalam Azad University of
                     Technology</span>,<span class="underline decoration-gray-400">Asansol Engineering college</span>,
@@ -148,8 +152,8 @@
                 <br>
                 🎓grade: 8.53
             </p>
-            <h2 class="text-2xl font-extrabold mb-2">Experience.</h2>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Experience.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 I worked as a Machine Learning intern at <span class="underline decoration-slate-300">ineuron.ai</span>
                 where I learned about the machine learning models,recommender systems etc.
                 <br>
@@ -157,23 +161,23 @@
                 <br>
                 🎁: <a href="https://github.com/Suv00m/debut-bRS">Book Recommender system</a>
             </p>
-            <h2 class="text-2xl font-extrabold mb-2">Achievements.</h2>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Achievements.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 <span class="text-xl font-extrabold mb-2">Best Innovative award:</span><br>
                 I led and built a team of 5 members to develop a headset called holographic headset, which was awarded
                 as the best innovative project in the college. Using the basic concept of holography of peper-ghost
                 effect, we developed a headset that can be used to watch 3D movies, play games, and also to watch 3D
                 models of the human body.
             </p>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 <span class="text-xl font-extrabold mb-2">Kaggle expert:</span><br>
                 I'm a 2x kaggle expert, and I have participated in many competitions and also have contributed to the
                 kaggle community by sharing my notebooks and also by participating in the discussions.
                 <br>
                 🧑🏻‍🦱: <a href="https://www.kaggle.com/shuvammandal121">here is my kaggle account</a>
             </p>
-            <h2 class="text-2xl font-extrabold mb-2">Skills.</h2>
-            <p class="font-mono mb-4 block border p-2 rounded-md">
+            <h2 align="Center" class="text-2xl font-extrabold mb-2">Skills.</h2>
+            <p class="font-mono mb-4 block border p-2 rounded-md hover:shadow-md">
                 <span class="font-mono mx-2 underline decoration-yellow-300">Machine Learning</span>
                 <span class="font-mono mx-2 underline decoration-red-600">Data Analysis</span>
                 <span class="font-mono mx-2 underline decoration-gray-600">feature Engineering</span>

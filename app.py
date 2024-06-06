@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-from flask_sqlalchemy import SQLAlchemy
 import yaml
 import logging
 
@@ -14,7 +13,7 @@ def home():
 @app.route("/blog")
 def blog():
     # list_example = ['Alvin', 'Simon', 'Theodore','shuvam']
-    with open('blog.yaml') as file:
+    with open('data\blog.yaml') as file:
          data = yaml.safe_load(file)
          print("data",data)
          blog_data = data['blog']

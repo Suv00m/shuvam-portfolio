@@ -95,7 +95,7 @@
 
     <ul class="mx-4 p-4 flex flex-wrap justify-center">
         {% for post in posts %}
-        <li class="mb-4 border mx-5 p-2 rounded-md tracking-tight content-start">
+        <li class="mb-4 border mx-5 p-2 rounded-md tracking-tight content-start block hover:shadow-md">
             <h3 class="font-bold">{{ post.title }}:</h3>
             <p class="font-mono">{{ post.content }}</p>
             <a href="{{ post.url }}" class="text-blue-500 m-4 hover:underline">Read more</a>
